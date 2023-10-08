@@ -1,0 +1,16 @@
+﻿@page "/canciones"
+
+<div class="container" id="albumCanciones">
+    @for (int i = 0; i < 3; i++)
+    {
+        <div class="album">
+        <img onclick="playSong()" src="https://scontent.fsal2-1.fna.fbcdn.net/v/t1.6435-9/123127858_3584595104938003_5801562388245054677_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=wk8ijxjI4QEAX9FoJPv&_nc_oc=AQklvN3UoR1HvkPz_952ts2LWBDt_wcDWr5oZ5YvSJnPb0rG30aKAETVj5PqK0sFl_c&_nc_ht=scontent.fsal2-1.fna&oh=00_AfCLnmBa1LoMyE_abSF9MsgGaGORRwURRp-iM-w0xBgLvg&oe=654918BC" />
+        <audio controls autoplay>
+                <source src="../Views/Shared/mienteme.mp3" type="audio/mpeg">
+        </audio>
+        </div>
+    }
+</div>
+
+
+
